@@ -55,9 +55,7 @@ ul {
 .menu:focus {
     color: var(--primary-brand-color);
 }
-
-
-
+/* Лого футер */
 .logo-footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -95,16 +93,18 @@ ul {
 /*  */
 /* Кнопка */
 .button {
-font-family: 'Roboto';
+font-family: inherit;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 color: var(--white-color);
+background: var(--primary-brand-color);
+cursor: pointer;
 }
 
-.container:hover,
-.container:focus {
+.button:hover,
+.button:focus {
     background-color: var(--blue-button);
 }
 .container {
@@ -119,6 +119,10 @@ color: var(--white-color);
 .button-filter {
     font-family: inherit;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.04em;
     background: var(--light-color);
     border: 1px solid var(--accent-color);
     color: var(--primary-brand-color);
